@@ -1,10 +1,10 @@
 import React from "react";
 import styled from 'styled-components';
-import backpack from './backpack.jpeg';
-import beach from './beach.jpeg';
-import oregon from './oregon.jpeg';
-import dock from './dock.jpeg';
-import moab from './moab.jpeg'
+import backpack from './images/backpack.jpeg';
+import beach from './images/beach.jpeg';
+import oregon from './images/oregon.jpeg';
+import dock from './images/dock.jpeg';
+import moab from './images/moab.jpeg'
 
 const AboutBackground = styled.div`
   background: rgba(139, 0, 139, .1);
@@ -16,10 +16,19 @@ const AboutBackground = styled.div`
 
   h1{
     font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
     letter-spacing: 7px;
-    background: linear-gradient(to right, #6600ff 13%, #cc00ff 82%);
+    background: linear-gradient(to right, #FFD3A5  13%, #FD6585 82%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  h1:hover{
+    transform: scale(1.1);
+  }
+
+  p{
+    color: #47476b;
   }
 `
 
@@ -111,12 +120,15 @@ const Cube = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
   }
+
 `
 
 const Paragraph = styled.div`
   width: 600px;
   line-height: 2;
   margin-top: 7rem;
+  font-size: 1.3rem;
+  margin: 1rem;
 `
 
 export default function About() {
@@ -124,9 +136,9 @@ export default function About() {
     <AboutBackground id="about">
       <h1>This is about me</h1>
       <Paragraph>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </Paragraph>
-    <Cube class='box'>
+    <Cube className='box'>
       <div id='one' ></div>
       <div id='two' ></div>
       <div id='three' ></div>

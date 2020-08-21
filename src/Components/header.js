@@ -15,7 +15,7 @@ const HeaderInline = styled.div`
       display: inline;
       margin: 1rem;
       color: purple;
-      font-family: 'Rubik Mono One', sans-serif;
+      font-family: 'Comfortaa', cursive;
     }
 
     a{

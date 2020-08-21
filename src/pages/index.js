@@ -1,7 +1,6 @@
 import React from "react";
 import Skills from '../Components/skills';
 import Header from '../Components/header';
-import styled from 'styled-components';
 import About from '../Components/about';
 import Projects from '../Components/projects';
 import Contact from '../Components/contact';

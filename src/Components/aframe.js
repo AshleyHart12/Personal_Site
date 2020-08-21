@@ -2,7 +2,7 @@ import 'aframe';
 import 'aframe-particle-system-component';
 // import {Entity, Scene} from 'aframe-react';
 import React from 'react';
-import photo from './colors.jpg';
+import photo from './images/colors.jpg';
 
  
 export default function Aframe() {
