@@ -24,7 +24,7 @@ h1:hover{
 const Box = styled.div`
   height: 15rem;
   width: 16rem;
-  border: 4px inset #F8F8FF;
+  border: 4px inset #F8F8FF;or
   display: inline-block;
   margin: .5rem;
   box-shadow: inset 0 0 0 0 #933469;
