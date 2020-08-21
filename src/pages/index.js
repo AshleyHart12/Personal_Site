@@ -10,6 +10,9 @@ import '../App.css';
 
 
 export default function Home() {
+
+  const module = typeof window !== `undefined` ? require("module") : null
+  
   return( 
     <div>
       <Aframe />
